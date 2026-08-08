@@ -1,0 +1,59 @@
+{
+  "disclaimer": "This chatbot is for educational purposes only. It does not provide medical diagnosis or treatment. Always consult a qualified healthcare professional for medical decisions.",
+  "emergency_keywords": [
+    "suicide",
+    "kill myself",
+    "want to die",
+    "self harm",
+    "self-harm",
+    "chest pain",
+    "heart attack",
+    "can't breathe",
+    "cannot breathe",
+    "difficulty breathing",
+    "overdose",
+    "severe bleeding",
+    "unconscious",
+    "not breathing",
+    "stroke",
+    "seizure"
+  ],
+  "emergency_message": "If you or someone else may be in immediate danger, call your local emergency number right now.",
+  "hotlines": [
+    {
+      "region": "United States",
+      "service": "Emergency",
+      "number": "911"
+    },
+    {
+      "region": "United States",
+      "service": "Suicide & Crisis Lifeline",
+      "number": "988"
+    },
+    {
+      "region": "United Kingdom",
+      "service": "Emergency",
+      "number": "999"
+    },
+    {
+      "region": "United Kingdom",
+      "service": "Samaritans",
+      "number": "116 123"
+    },
+    {
+      "region": "Kenya",
+      "service": "Emergency",
+      "number": "999 or 112"
+    },
+    {
+      "region": "Kenya",
+      "service": "Befrienders Kenya",
+      "number": "+254 722 178 177"
+    },
+    {
+      "region": "International",
+      "service": "Find a local crisis line",
+      "number": "https://findahelpline.com"
+    }
+  ]
+}

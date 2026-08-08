@@ -1,0 +1,102 @@
+[
+  {
+    "category": "General Health",
+    "question": "How much water should I drink daily?",
+    "answer": "Most healthy adults need about 2 to 2.5 liters (8–10 cups) of fluids per day. Needs vary with activity, climate, and body size. Urine that is pale yellow usually means you are well hydrated."
+  },
+  {
+    "category": "General Health",
+    "question": "How many hours of sleep do teenagers need?",
+    "answer": "Teenagers typically need 8 to 10 hours of sleep per night. Consistent sleep schedules, limiting screens before bed, and a dark quiet room help improve sleep quality."
+  },
+  {
+    "category": "General Health",
+    "question": "Why is hand washing important?",
+    "answer": "Hand washing removes germs that cause colds, flu, and stomach infections. Wash with soap and water for at least 20 seconds, especially before eating and after using the bathroom."
+  },
+  {
+    "category": "Nutrition",
+    "question": "What is a balanced diet?",
+    "answer": "A balanced diet includes fruits, vegetables, whole grains, lean protein, and healthy fats. Try to limit sugary drinks, processed snacks, and excessive salt. Variety helps you get vitamins and minerals."
+  },
+  {
+    "category": "Nutrition",
+    "question": "Is skipping breakfast bad for you?",
+    "answer": "Breakfast can help concentration and energy for morning activities, but individual needs differ. If you skip breakfast, make sure you get balanced nutrition later in the day."
+  },
+  {
+    "category": "Nutrition",
+    "question": "How much sugar is too much?",
+    "answer": "Health organizations recommend limiting added sugars to roughly 25 g per day for women and 36 g per day for men. Soft drinks, candy, and sweetened cereals are common sources."
+  },
+  {
+    "category": "Exercise",
+    "question": "How much exercise should students get?",
+    "answer": "Young people should aim for at least 60 minutes of moderate to vigorous physical activity most days. This can include walking, cycling, sports, or dancing."
+  },
+  {
+    "category": "Exercise",
+    "question": "What are the benefits of regular exercise?",
+    "answer": "Regular exercise strengthens the heart and muscles, improves mood, supports healthy weight, and can improve sleep and focus. Even short daily activity counts."
+  },
+  {
+    "category": "Mental Health",
+    "question": "What is stress and how can I manage it?",
+    "answer": "Stress is the body's response to pressure or challenge. Helpful strategies include deep breathing, exercise, talking to someone you trust, taking breaks, and keeping a realistic schedule."
+  },
+  {
+    "category": "Mental Health",
+    "question": "What is anxiety?",
+    "answer": "Anxiety is a feeling of worry or fear that can be normal before exams or events. If worry is constant, interferes with daily life, or causes physical symptoms, speaking to a counselor or doctor is recommended."
+  },
+  {
+    "category": "Mental Health",
+    "question": "How can I support a friend who seems sad?",
+    "answer": "Listen without judgment, encourage them to talk to a trusted adult or counselor, and stay in contact. If they mention self-harm or suicide, tell a responsible adult immediately."
+  },
+  {
+    "category": "Common Illnesses",
+    "question": "What is the difference between a cold and the flu?",
+    "answer": "Colds usually develop slowly with mild symptoms like runny nose and sore throat. Flu often starts suddenly with fever, body aches, and fatigue. Both are caused by viruses and usually improve with rest and fluids."
+  },
+  {
+    "category": "Common Illnesses",
+    "question": "When should I stay home from school when sick?",
+    "answer": "Stay home if you have a fever, vomiting, diarrhea, or a contagious illness that could spread to others. Return when you have been fever-free for 24 hours without medication, if your school allows."
+  },
+  {
+    "category": "Common Illnesses",
+    "question": "What helps with a headache?",
+    "answer": "Rest, drinking water, reducing screen time, and mild pain relief may help occasional headaches. See a doctor if headaches are severe, frequent, or come with vision changes or fever."
+  },
+  {
+    "category": "Hygiene",
+    "question": "How often should I brush my teeth?",
+    "answer": "Brush twice daily with fluoride toothpaste and floss once daily. Regular dental checkups help prevent cavities and gum disease."
+  },
+  {
+    "category": "Hygiene",
+    "question": "Why is sunscreen important?",
+    "answer": "Sunscreen protects skin from UV damage that causes sunburn and increases skin cancer risk. Use broad-spectrum SPF 30 or higher and reapply every two hours when outdoors."
+  },
+  {
+    "category": "First Aid Basics",
+    "question": "What should I do for a minor cut?",
+    "answer": "Wash your hands, rinse the cut with clean water, apply gentle pressure to stop bleeding, clean with antiseptic if available, and cover with a clean bandage. Seek medical help for deep, dirty, or non-stop bleeding cuts."
+  },
+  {
+    "category": "First Aid Basics",
+    "question": "What is the recovery position?",
+    "answer": "The recovery position is used when someone is unconscious but breathing. Roll them onto their side with the top leg bent and head tilted back slightly to keep the airway open. Call emergency services."
+  },
+  {
+    "category": "Substance Awareness",
+    "question": "Why is smoking harmful?",
+    "answer": "Smoking damages the lungs and heart, increases cancer risk, and affects breathing and fitness. Most smokers start as teenagers; avoiding tobacco greatly reduces long-term health risks."
+  },
+  {
+    "category": "Substance Awareness",
+    "question": "What are the risks of energy drinks?",
+    "answer": "Energy drinks contain high caffeine and sugar, which can cause jitteriness, sleep problems, and heart palpitations in some people. Water is usually the best choice for hydration during study or sport."
+  }
+]

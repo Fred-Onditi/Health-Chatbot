@@ -1,0 +1,56 @@
+[
+  {
+    "topic": "Study & Focus",
+    "tips": [
+      "Take a 5-minute break every 25–30 minutes (Pomodoro technique).",
+      "Study in a well-lit area to reduce eye strain.",
+      "Keep phones away during study blocks to improve concentration.",
+      "Snack on fruits or nuts instead of sugary foods for steady energy."
+    ]
+  },
+  {
+    "topic": "Sleep",
+    "tips": [
+      "Go to bed and wake up at the same time every day, even on weekends.",
+      "Avoid caffeine after mid-afternoon.",
+      "Stop using screens at least 30 minutes before bed.",
+      "Keep your room cool, dark, and quiet for better sleep."
+    ]
+  },
+  {
+    "topic": "Nutrition",
+    "tips": [
+      "Fill half your plate with vegetables at main meals.",
+      "Choose water as your main drink during the day.",
+      "Eat breakfast with protein (eggs, yogurt, beans) to stay full longer.",
+      "Limit fast food to occasional treats, not daily meals."
+    ]
+  },
+  {
+    "topic": "Physical Activity",
+    "tips": [
+      "Walk or cycle to school when safe and possible.",
+      "Stretch for 5 minutes after long periods of sitting.",
+      "Join a school sport or dance club to stay active with friends.",
+      "Aim for activities you enjoy so exercise feels fun, not like a chore."
+    ]
+  },
+  {
+    "topic": "Mental Wellness",
+    "tips": [
+      "Write down three things you are grateful for each day.",
+      "Talk to a friend, teacher, or counselor when stress builds up.",
+      "Spend time outdoors — even a short walk can improve mood.",
+      "Limit social media if it makes you feel anxious or compare yourself to others."
+    ]
+  },
+  {
+    "topic": "Immunity & Prevention",
+    "tips": [
+      "Stay up to date with recommended vaccinations.",
+      "Cover your mouth when coughing or sneezing, then wash hands.",
+      "Do not share water bottles, utensils, or lip balm with others.",
+      "Open windows regularly to ventilate indoor spaces."
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "symptom": "Headache",
+    "possible_causes": ["Dehydration", "Lack of sleep", "Eye strain", "Stress", "Tension"],
+    "self_care": ["Drink water", "Rest in a quiet room", "Reduce screen time", "Apply a cool cloth to forehead"],
+    "see_doctor_if": ["Sudden severe headache", "Headache with fever and stiff neck", "Headache after head injury", "Frequent headaches that disrupt daily life"]
+  },
+  {
+    "symptom": "Sore Throat",
+    "possible_causes": ["Viral infection (cold)", "Dry air", "Allergies", "Voice strain"],
+    "self_care": ["Warm fluids with honey (if age appropriate)", "Rest voice", "Gargle warm salt water", "Use a humidifier"],
+    "see_doctor_if": ["Difficulty swallowing or breathing", "High fever lasting more than 3 days", "White patches on tonsils", "Symptoms lasting more than a week"]
+  },
+  {
+    "symptom": "Fever",
+    "possible_causes": ["Infection (viral or bacterial)", "Inflammation", "Heat exhaustion"],
+    "self_care": ["Rest", "Drink fluids", "Wear light clothing", "Monitor temperature"],
+    "see_doctor_if": ["Temperature above 39°C (102°F) in children or adults", "Fever lasting more than 3 days", "Fever with rash, confusion, or stiff neck", "Infants under 3 months with any fever"]
+  },
+  {
+    "symptom": "Cough",
+    "possible_causes": ["Cold or flu", "Allergies", "Asthma", "Irritants like smoke"],
+    "self_care": ["Stay hydrated", "Honey for soothing (age 1+)", "Avoid smoke and strong perfumes", "Rest"],
+    "see_doctor_if": ["Cough lasting more than 3 weeks", "Coughing up blood", "Shortness of breath", "High fever with cough"]
+  },
+  {
+    "symptom": "Stomach Ache",
+    "possible_causes": ["Indigestion", "Food intolerance", "Stress", "Minor infection"],
+    "self_care": ["Sip water", "Eat bland foods (rice, toast, banana)", "Rest", "Avoid fatty or spicy food temporarily"],
+    "see_doctor_if": ["Severe or worsening pain", "Repeated vomiting", "Blood in stool or vomit", "Pain in lower right abdomen (possible appendicitis)"]
+  },
+  {
+    "symptom": "Fatigue",
+    "possible_causes": ["Poor sleep", "Stress", "Low iron", "Illness", "Overwork"],
+    "self_care": ["Improve sleep routine", "Eat balanced meals", "Reduce caffeine reliance", "Light exercise"],
+    "see_doctor_if": ["Fatigue lasting weeks without clear cause", "Fatigue with unexplained weight loss", "Fatigue with chest pain or breathlessness"]
+  },
+  {
+    "symptom": "Dizziness",
+    "possible_causes": ["Dehydration", "Low blood sugar", "Standing up too quickly", "Inner ear issues"],
+    "self_care": ["Sit or lie down", "Drink water", "Eat a small snack", "Stand up slowly"],
+    "see_doctor_if": ["Fainting", "Dizziness with chest pain or headache", "Repeated episodes", "Dizziness after head injury"]
+  },
+  {
+    "symptom": "Runny Nose",
+    "possible_causes": ["Common cold", "Allergies", "Sinus irritation"],
+    "self_care": ["Rest", "Fluids", "Saline nasal rinse", "Avoid allergens if known"],
+    "see_doctor_if": ["Green or yellow discharge with facial pain and fever", "Symptoms lasting more than 10 days", "Difficulty breathing through nose affecting sleep"]
+  }
+]
