@@ -29,6 +29,46 @@ def load_example_questions() -> tuple[str, ...]:
     with open(EXAMPLE_QUESTIONS_PATH, "r", encoding="utf-8") as file:
         return tuple(line.strip() for line in file if line.strip())
 
+DOCTOR_WARNING = (
+    "\n\n---\n"
+    "⚠️ **Educational purposes only.** I am not a doctor and this is not "
+    "medical advice, diagnosis, or treatment. If you are feeling unwell, "
+    "please see a qualified healthcare professional. In an emergency, "
+    "call your local emergency number 922 - SHA,"
+     "1199 OR 1514 OR +254 700 395 395 - Kenya Red Cross"
+    "+254 721 225 285 - St. John Ambulance") or "go to the nearest hospital."
+
+
+DOCTOR_FOLLOW_UPS = (
+    "\n\n**Questions a doctor would likely ask you:**\n"
+    "- How long have you had these symptoms?\n"
+    "- How severe are they (mild, moderate, severe)?\n"
+    "- Do you have a fever, vomiting, or difficulty breathing?\n"
+    "- Do you have any existing conditions or take any medication?\n"
+)
+
+RED_FLAGS = (
+    "chest pain", "can't breathe", "cannot breathe", "difficulty breathing",
+    "severe bleeding", "unconscious", "seizure", "stroke", "suicidal",
+)
+
+
+def add_doctor_style(question: str, reply: str) -> str:
+    lowered = question.strip().lower()
+
+    # Don't decorate the built-in commands
+    if lowered in {"help", "symptoms", "topics"}:
+        return reply
+
+    if any(flag in lowered for flag in RED_FLAGS):
+        reply = (
+            "🚨 **This could be an emergency. Seek medical help immediately.**\n\n"
+            + reply
+        )
+    else:
+        reply += DOCTOR_FOLLOW_UPS
+
+    return reply + DOCTOR_WARNING
 
 def get_reply(question: str, data: dict) -> str:
     lowered = question.strip().lower()
@@ -42,14 +82,14 @@ def get_reply(question: str, data: dict) -> str:
     if lowered == "topics":
         return list_topics(data["wellness_tips"])
 
-    return get_bot_reply(
+    reply = get_bot_reply(
         question,
         data["health_faq"],
         data["symptom_info"],
         data["wellness_tips"],
         data["emergency_resources"],
     )
-
+    return add_doctor_style(question, reply)
 
 def welcome_message(disclaimer: str) -> dict:
     return {
@@ -85,7 +125,7 @@ def handle_question(question: str, data: dict) -> None:
 
 st.set_page_config(
     page_title="Health Chatbot",
-    page_icon="🏥",
+    page_icon="🩺",
     layout="centered",
 )
 
@@ -95,7 +135,7 @@ example_questions = load_example_questions()
 
 init_session_state(disclaimer)
 
-st.title("🏥 Health Information Chatbot")
+st.title(" Health Information Chatbot")
 st.caption("School project — educational use only.")
 
 with st.sidebar:
